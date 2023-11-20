@@ -1,6 +1,6 @@
-@import '../../_settings/_variables.css';
+@import '../../_settings/_base.css';
 
-.input {
+input {
  border-radius: 0px !important;
 }
 
