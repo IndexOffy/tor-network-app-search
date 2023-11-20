@@ -27,7 +27,7 @@ const Card = (props) => {
   )
 
   return (
-    <div className="card" >
+    <div className={classProps} >
       <div className="card-body">
         {children}
       </div>
@@ -38,7 +38,7 @@ const Card = (props) => {
 Card.defaultProps = {
   theme: CardTheme.DEFAULT,
   size: CardSize.MEDIUM,
-  className: '',
+  className: 'card',
   disabled: false,
 }
 

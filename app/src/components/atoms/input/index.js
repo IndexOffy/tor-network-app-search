@@ -18,7 +18,7 @@ export const InputSize = {
 }
 
 const Input = (props) => {
-  const { type, children, theme, size, className, placeholder, disabled } = props
+  const { type, onChange, children, theme, size, className, placeholder, disabled } = props
 
   const classProps = classnames(
     styles[theme],
@@ -30,10 +30,11 @@ const Input = (props) => {
   )
 
   return (
-    <input type={type} disabled={disabled} className={classProps} placeholder={placeholder}>
+    <input type={type} onChange={onChange} disabled={disabled} className={classProps} placeholder={placeholder}>
       {children}
     </input>
   )
+
 }
 
 Input.defaultProps = {
@@ -41,6 +42,7 @@ Input.defaultProps = {
   theme: InputTheme.DEFAULT,
   size: InputSize.MEDIUM,
   className: 'form-control',
+  onChange: () => {},
   placeholder: '',
   disabled: false,
 }

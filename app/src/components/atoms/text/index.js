@@ -8,7 +8,7 @@ export const TextTheme = {
 }
 
 const Text = (props) => {
-  const { children, theme, size, className, disabled } = props
+  const { children, theme, size, className, limitText, disabled } = props
 
   const classProps = classnames(
     styles[theme],
@@ -20,13 +20,17 @@ const Text = (props) => {
   )
 
   return (
-      <p disabled={disabled} className={classProps}>{children}</p>
+    <p
+      disabled={disabled} className={classProps}>
+      {limitText ? children.substring(0, limitText) + '...' : children}
+    </p>
   )
 }
 
 Text.defaultProps = {
   theme: TextTheme.DEFAULT,
   className: 'card-text',
+  limitText: null,
   disabled: false,
 }
 
