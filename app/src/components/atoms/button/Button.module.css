@@ -12,6 +12,28 @@
   --bs-btn-border-color: #9f9f9f;
 }
 
+.menu-dark {
+  color: var(--color-white) !important;
+  background: var(--color-black);
+  border-color: #000;
+  text-decoration: none !important;
+  --bs-btn-hover-color: #000 !important;
+  --bs-btn-hover-bg: #000 !important;
+  --bs-btn-hover-border-color: #000 !important;
+  --bs-btn-active-bg: #000 !important;
+}
+
+.menu-light {
+  color: #000 !important;
+  background: var(--color-white);
+  border-color: #fff;
+  text-decoration: none !important;
+  --bs-btn-hover-color: #fff !important;
+  --bs-btn-hover-bg: #fff !important;
+  --bs-btn-hover-border-color: #fff !important;
+  --bs-btn-active-bg: #fff !important;
+}
+
 .light {
   color: #000;
   background: var(--color-white);
@@ -52,18 +74,18 @@
 }
 
 .small {
-  padding: 0.5em 0.6em;
-  font-size: 0.900rem;
+  padding: var(--padding-small);
+  font-size: var(--font-small);
 }
 
 .medium {
-  padding: 1.0em 1.2em;
-  font-size: 1.1rem;
+  padding: var(--padding-medium);
+  font-size: var(--font-medium);
 }
 
 .large {
-  padding: 1.3em 1.3em;
-  font-size: 1.25rem;
+  padding: var(--padding-large);
+  font-size: var(--font-large);
 }
 
 .disabled {

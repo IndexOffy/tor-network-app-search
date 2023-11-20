@@ -1,37 +1,37 @@
 @import '../../_settings/_variables.css';
 
-.buttom {
- border-radius: 1px;
+.input {
+ border-radius: 0px !important;
 }
 
 .default {
-  color: #000;
+  color: var(--color-black);
   background: var(--color-white);
 }
 
 .light {
-  color: #000;
-  background: var(--color-white);
+  color: var(--color-black);
+  background: var(--color-gray);
 }
 
 .dark {
-  color: #fff;
-  background: var(--color-black);
+  color: var(--color-black);
+  background: var(--color-white);
 }
 
 .small {
-  padding: 0.5em 0.6em;
-  font-size: 0.900rem;
+  padding: var(--padding-small);
+  font-size: var(--font-small);
 }
 
 .medium {
-  padding: 1.0em 1.2em;
-  font-size: 1.1rem;
+  padding: var(--padding-medium);
+  font-size: var(--font-medium);
 }
 
 .large {
-  padding: 1.3em 1.3em;
-  font-size: 1.25rem;
+  padding: var(--padding-large);
+  font-size: var(--font-large);
 }
 
 .disabled {

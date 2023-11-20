@@ -5,10 +5,17 @@
     --background: #000;
     --color-black: #000;
     --color-white: #fff;
+    --color-gray: #aaaaaa;
     --color-blue: #4051b5;
     --color-green: #4cae4f;
     --color-yellow: #f1dc15;
     --color-orange: #ffa724;
     --color-purple: #ab47bd;
     --color-red: #ff2c06;
+    --padding-small: 0.5em 0.6em;
+    --padding-medium: 0.7em 1.2em;
+    --padding-large: 1.0em 1.3em;
+    --font-small: 0.900rem;
+    --font-medium: 1.1rem;
+    --font-large: 1.25rem;
 }

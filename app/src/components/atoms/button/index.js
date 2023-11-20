@@ -10,7 +10,9 @@ export const ButtonType = {
 export const ButtonTheme = {
   DEFAULT: 'default',
   LIGHT: 'light',
-  DARK: 'dark'
+  DARK: 'dark',
+  MENU_LIGHT: 'menu-light',
+  MENU_DARK: 'menu-dark'
 }
 
 export const ButtonSize = {
@@ -42,7 +44,7 @@ const Button = (props) => {
 Button.defaultProps = {
   type: ButtonType.BUTTON,
   theme: ButtonTheme.DEFAULT,
-  size: ButtonSize.SMALL,
+  size: ButtonSize.MEDIUM,
   onClick: () => {},
   className: 'btn',
   disabled: false,

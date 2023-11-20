@@ -7,13 +7,17 @@ const HomePage = () => {
   return (
     <div className="App container py-3">
       <Button theme='dark' size='small'>Search</Button>
-      <Input placeholder='search...' size='small'></Input>
+      <Input theme='dark' placeholder='search...' size='small'></Input>
       
       <Button theme='dark' size='medium'>Search</Button>
-      <Input placeholder='search...' size='medium'></Input>
+      <Input theme='dark' placeholder='search...' size='medium'></Input>
 
       <Button theme='dark' size='large'>Search</Button>
-      <Input placeholder='search...' size='large'></Input>
+      <Input theme='dark' placeholder='search...' size='large'></Input>
+
+      <Button theme='menu-dark' size='small'>[Home]</Button>
+      <Button theme='menu-dark' size='medium'>[Home]</Button>
+      <Button theme='menu-dark' size='large'>[Home]</Button>
     </div>
   )
 }
