@@ -1,1 +1,22 @@
 @import '../../_settings/_base.css';
+
+.default {
+    color: var(--clor-white) !important;
+    --bs-card-bg: var(--color-black) !important;
+    --bs-card-border-radius: 0px !important;
+    --bs-card-border-color: var(--color-white) !important;
+}
+
+.dark {
+    color: var(--clor-white) !important;
+    --bs-card-bg: var(--color-black) !important;
+    --bs-card-border-radius: 0px !important;
+    --bs-card-border-color: var(--color-white) !important;
+}
+
+.light {
+    color: var(--clor-black) !important;
+    --bs-card-bg: var(--color-white) !important;
+    --bs-card-border-radius: 0px !important;
+    --bs-card-border-color: var(--color-black) !important;
+}

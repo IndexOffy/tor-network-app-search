@@ -1,1 +1,6 @@
 @import '../../_settings/_base.css';
+
+p {
+    font-weight: 400 !important;
+    margin: 0.5rem 0 !important;
+}

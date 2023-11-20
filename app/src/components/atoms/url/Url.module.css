@@ -1,0 +1,18 @@
+@import '../../_settings/_base.css';
+
+a {
+  text-decoration: none !important;
+  text-underline-position: under !important;
+}
+
+.default {
+  color: var(--clor-white) !important;
+}
+
+.dark {
+  color: var(--clor-white) !important;
+}
+
+.light {
+  color: var(--clor-black) !important;
+}

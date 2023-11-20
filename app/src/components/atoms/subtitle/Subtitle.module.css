@@ -1,1 +1,13 @@
 @import '../../_settings/_base.css';
+
+.default {
+  color: var(--clor-gray) !important;
+}
+
+.dark {
+  color: var(--clor-gray) !important;
+}
+
+.light {
+  color: var(--clor-black) !important;
+}

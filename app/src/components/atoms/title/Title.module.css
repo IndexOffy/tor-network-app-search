@@ -1,1 +1,16 @@
 @import '../../_settings/_base.css';
+
+.default {
+    font-weight: bolder;
+    color: var(--clor-white) !important;
+  }
+  
+  .dark {
+    font-weight: bolder;
+    color: var(--clor-white) !important;
+  }
+  
+  .light {
+    font-weight: bolder;
+    color: var(--clor-black) !important;
+  }
