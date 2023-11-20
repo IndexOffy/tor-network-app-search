@@ -1,0 +1,39 @@
+@import '../../_settings/_variables.css';
+
+.buttom {
+ border-radius: 1px;
+}
+
+.default {
+  color: #000;
+  background: var(--color-white);
+}
+
+.light {
+  color: #000;
+  background: var(--color-white);
+}
+
+.dark {
+  color: #fff;
+  background: var(--color-black);
+}
+
+.small {
+  padding: 0.5em 0.6em;
+  font-size: 0.900rem;
+}
+
+.medium {
+  padding: 1.0em 1.2em;
+  font-size: 1.1rem;
+}
+
+.large {
+  padding: 1.3em 1.3em;
+  font-size: 1.25rem;
+}
+
+.disabled {
+  color: #919191;
+}
