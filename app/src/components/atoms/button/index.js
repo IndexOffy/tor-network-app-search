@@ -1,5 +1,5 @@
 import classnames from 'classnames'
-import styles from './style.css';
+import styles from './Button.module.css';
 
 export const ButtonType = {
   BUTTON: 'button',
@@ -9,6 +9,8 @@ export const ButtonType = {
 
 export const ButtonTheme = {
   DEFAULT: 'default',
+  LIGHT: 'light',
+  DARK: 'dark'
 }
 
 export const ButtonSize = {
@@ -30,8 +32,6 @@ const Button = (props) => {
     className
   )
 
-  console.log(styles)
-
   return (
     <button type={type} onClick={onClick} disabled={disabled} className={classProps}>
       {children}
@@ -42,9 +42,9 @@ const Button = (props) => {
 Button.defaultProps = {
   type: ButtonType.BUTTON,
   theme: ButtonTheme.DEFAULT,
-  size: ButtonSize.MEDIUM,
+  size: ButtonSize.SMALL,
   onClick: () => {},
-  className: '',
+  className: 'btn',
   disabled: false,
 }
 

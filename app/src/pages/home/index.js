@@ -5,7 +5,7 @@ import Button from '../../components/atoms/button'
 const HomePage = () => {
   return (
     <div className="App container py-3">
-      <Button size='large'>Test</Button>
+      <Button theme='light' size='medium'>Search</Button>
     </div>
   )
 }
