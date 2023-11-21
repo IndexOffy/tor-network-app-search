@@ -6,13 +6,13 @@ a {
 }
 
 .default {
-  color: var(--clor-white) !important;
+  color: var(--color-white) !important;
 }
 
 .dark {
-  color: var(--clor-white) !important;
+  color: var(--color-white) !important;
 }
 
 .light {
-  color: var(--clor-black) !important;
+  color: var(--color-black) !important;
 }
