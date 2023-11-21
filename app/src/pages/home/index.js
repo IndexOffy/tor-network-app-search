@@ -1,8 +1,9 @@
 import '../../components/_settings/_base.css';
+import Default from '../../components/templates/default';
 
 const HomePage = () => {
   return (
-    <div className="App"></div>
+      <Default></Default>
   )
 }
 
